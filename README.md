@@ -1,1 +1,1 @@
-# drxtoken.io
+# drx-landing
