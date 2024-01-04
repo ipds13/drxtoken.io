@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import drxTOKEN1 from "/img/Drx Token.png";
 import illustrasi1 from "/img/Illustrasi DRX.svg";
 import { GrLinkNext } from "react-icons/gr";
-import { TfiDownload } from "react-icons/tfi";
+import { TfiDownload,TfiSkype } from "react-icons/tfi";
+import { BiLogoInstagramAlt, BiLogoTelegram,BiLogoTwitter } from "react-icons/bi";
 import DRXWhitepaper from "../PdfDummy/DRX Whitepaper.pdf";
 import PDFViewer from "pdf-viewer-reactjs";
 
@@ -31,26 +32,29 @@ const Header = () => {
             <div className="lg:pt-20">
               <div className="relative lg:ml-20">
                 <img className="w-auto md:w-auto h-40 md:h-48 mt-4 cursor-pointer " src={drxTOKEN1} alt="DRX Token" />
-                <div className="md:w-[504px] lg:w-[504px] sm:w-[full] h-36 text-white text-lg md:text-xl md:text-center font-normal font-['Avenir'] leading-7 md:leading-9 sm:pb-24 ">
-                  DRX-Token is a crypto token built on the Ethereum network. DRX-Token inherits the speed, security, transparency, and other characteristics of Ethereum Blockchain.
+                <div className="md:w-[504px] lg:w-[504px] sm:w-[full] h-27 text-white text-lg md:text-xl md:text-center font-normal font-['Avenir'] leading-7 md:leading-9 sm:pb-24 ">
+                  Welcome to the DRX Token Revolution, Where Sports, Crypto, and Fashion Collide!
+                  DRX Token isn't your average crypto—it's a vibe. Join us in a journey where sports,
+                  blockchain, and high-tech fashion collide. But hold on, we've got some real talk for you too. 
+                  DRX isn't just tokens; it's a thriving apparel business with a tech twist—NFC technology!
                 </div>
-                <div className="flex flex-col md:flex-row mt-4 gap-2 md:items-center md:justify-center lg:justify-start sm:items-center sm:justify-center">
+                <div className="flex flex-col md:flex-row  gap-2 md:items-center md:justify-center lg:justify-center sm:items-center sm:justify-center">
                   <div
                     onClick={handleTele}
                     className="cursor-pointer w-full md:w-56 h-20 md:h-12 px-5 py-2 md:ml-2 rounded-3xl border-2 border-orange-400 justify-center items-center gap-1.5 inline-flex hover:bg-gradient-to-r from-transparent via-[#785501] to-transparent"
                   >
                     <div className="text-white text-xl font-normal font-['Avenir'] leading-7">Join Telegram</div>
                     
-                    <TfiDownload className="text-white font-bold text-xl" />
+                    <BiLogoTelegram className="text-white font-bold text-xl" />
                   </div>
-                  <div
+                  {/* <div
                     onClick={handleDownload}
                     className="cursor-pointer w-full md:w-56 h-20 md:h-12 px-5 py-2 md:ml-2 rounded-3xl border-2 border-orange-400 justify-center items-center gap-1.5 inline-flex hover:bg-gradient-to-r from-transparent via-[#785501] to-transparent"
                   >
                     <div className="text-white text-xl font-normal font-['Avenir'] leading-7">Whitepaper</div>
                     
                     <TfiDownload className="text-white font-bold text-xl" />
-                  </div>
+                  </div> */}
                 </div>
                 {/* <div className="flex flex-col md:flex-row mt-4 gap-2 md:items-center md:justify-center lg:justify-start sm:items-center sm:justify-center">
                   <div

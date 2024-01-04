@@ -116,9 +116,9 @@ const EventDocumentation = () => {
   const mobileImage = [
     { id: 1, name: "Event 1", content1: "Garudaku", content2: "Indonesia, 27/06/2023", images: [garudaku2] },
     { id: 2, name: "Event 2", content1: "Hipmi", content2: "Indonesia, 07/09/2023", images: [hipmi1] },
-    { id: 3, name: "Event 3", content1: "Superstar Knock Out", content2: "17/11/2023", images: [super1] },
-    { id: 4, name: "Event 4", content1: "DRXToken x GK", content2: "18/12/2023", images: [gk3] },
-    { id: 5, name: "Event 5", content1: "Brick Parkour", content2: "12/08/2023", images: [Brick5] },
+    { id: 3, name: "Event 3", content1: "Superstar Knock Out", content2: "Indonesia, 17/11/2023", images: [super1] },
+    { id: 4, name: "Event 4", content1: "DRXToken x GK", content2: "Indonesia, 18/12/2023", images: [gk3] },
+    { id: 5, name: "Event 5", content1: "Brick Parkour", content2: "Indonesia, 12/08/2023", images: [Brick5] },
     { id: 6, name: "Event 6", content1: "Woodball", content2: "Indonesia, 18/07/2023", images: [Woodbal2] },
     { id: 7, name: "Event 7", content1: "Ifel", content2: "Indonesia, 16/07/2023", images: [ifel2] },
   ];
