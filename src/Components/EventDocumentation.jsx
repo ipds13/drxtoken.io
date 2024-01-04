@@ -104,23 +104,23 @@ const EventDocumentation = () => {
   };
 
   const kartuData = [
-    { id: 1, name: "Event 1", content1: "Singapore", content2: "10 November 2023", images: [garudaku2, garudaku3, garudaku4, garudaku5] },
-    { id: 2, name: "Event 2", content1: "Malaysia", content2: "15 November 2023", images: [hipmi1, hipmi2, hipmi3, hipmi4] },
-    { id: 3, name: "Event 3", content1: "Indonesia", content2: "20 November 2023", images: [super1, super2, super3, super4] },
-    { id: 4, name: "Event 4", content1: "Mesir", content2: "20 November 2023", images: [gk1, gk2, gk3, gk4] },
-    { id: 5, name: "Event 5", content1: "Tokyo", content2: "20 November 2023", images: [Brick1, Brick2, Brick3, Brick4, Brick5] },
-    { id: 6, name: "Event 6", content1: "Canada", content2: "20 November 2023", images: [Woodbal1, Woodbal2, Woodbal4, Woodbal5] },
-    { id: 7, name: "Event 7", content1: "Africa", content2: "20 November 2023", images: [ifel1, ifel2] },
+    { id: 1, name: "Event 1", content1: "Garudaku", content2: "Indonesia, 27/06/2023", images: [garudaku2, garudaku3, garudaku4, garudaku5] },
+    { id: 2, name: "Event 2", content1: "Hipmi", content2: "Indonesia, 07/09/2023", images: [hipmi1, hipmi2, hipmi3, hipmi4] },
+    { id: 3, name: "Event 3", content1: "Superstar Knock Out", content2: "17/11/2023", images: [super1, super2, super3, super4] },
+    { id: 4, name: "Event 4", content1: "DRXToken x GK", content2: "18/12/2023", images: [gk1, gk2, gk3, gk4] },
+    { id: 5, name: "Event 5", content1: "Brick Parkour", content2: "12/08/2023", images: [Brick1, Brick2, Brick3, Brick4, Brick5] },
+    { id: 6, name: "Event 6", content1: "Woodball", content2: "Indonesia, 18/07/2023", images: [Woodbal1, Woodbal2, Woodbal4, Woodbal5] },
+    { id: 7, name: "Event 7", content1: "Ifel", content2: "Indonesia, 16/07/2023", images: [ifel1, ifel2] },
     // Add more kartuData as needed
   ];
   const mobileImage = [
-    { id: 1, name: "Event 1", content1: "Singapore", content2: "10 November 2023", images: [garudaku2] },
-    { id: 2, name: "Event 2", content1: "Malaysia", content2: "15 November 2023", images: [hipmi1] },
-    { id: 3, name: "Event 3", content1: "Indonesia", content2: "20 November 2023", images: [super1] },
-    { id: 4, name: "Event 4", content1: "Mesir", content2: "20 November 2023", images: [gk3] },
-    { id: 5, name: "Event 5", content1: "Tokyo", content2: "20 November 2023", images: [Brick5] },
-    { id: 6, name: "Event 6", content1: "Canada", content2: "20 November 2023", images: [Woodbal2] },
-    { id: 7, name: "Event 7", content1: "Africa", content2: "20 November 2023", images: [ifel2] },
+    { id: 1, name: "Event 1", content1: "Garudaku", content2: "Indonesia, 27/06/2023", images: [garudaku2] },
+    { id: 2, name: "Event 2", content1: "Hipmi", content2: "Indonesia, 07/09/2023", images: [hipmi1] },
+    { id: 3, name: "Event 3", content1: "Superstar Knock Out", content2: "17/11/2023", images: [super1] },
+    { id: 4, name: "Event 4", content1: "DRXToken x GK", content2: "18/12/2023", images: [gk3] },
+    { id: 5, name: "Event 5", content1: "Brick Parkour", content2: "12/08/2023", images: [Brick5] },
+    { id: 6, name: "Event 6", content1: "Woodball", content2: "Indonesia, 18/07/2023", images: [Woodbal2] },
+    { id: 7, name: "Event 7", content1: "Ifel", content2: "Indonesia, 16/07/2023", images: [ifel2] },
   ];
 
   return (
@@ -131,7 +131,7 @@ const EventDocumentation = () => {
       {console.log("ee", showOnMobile)}
       {showOnMobile == true ? 
         mobileImage.map((group) => (
-          <div key={group.id} className="flex items-center">
+          <div key={group.id} className="flex items-center mb-2">
             <div className="flex  md:flex-row-reverse">
               {group.images.map((image, index) => (
                 <div key={index} className={index % 2 === 0 ? "sm:col-span-2" : "gap-2 sm:-col-span-1"}>
