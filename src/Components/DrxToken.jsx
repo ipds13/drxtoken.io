@@ -24,7 +24,7 @@ const DrxToken = () => {
       </div>
       <div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-4">
         <button onClick={handleDownload} className="w-full md:w-[321px] h-[68px] rounded-3xl border-yellow-500 hover:bg-gradient-to-r from-transparent via-[#785501] to-transparent text-white font-semibold py-2 px-4 border ">
-          Download Whitepaper
+          Whitepaper
         </button>
         {showPDF && (
           <div className="my-8 w-full md:w-[500px] mx-auto">

@@ -9,8 +9,8 @@ import SmartContract from "./SmartContract";
 const DrxTokenParnert = () => {
   const partnerImages = [
     { image: GudangKripto, name: "GudangKripto" },
-    { image: Bitcoint, name: "Bitcoin" },
-    { image: Crypto, name: "Crypto" },
+    // { image: Bitcoint, name: "Bitcoin" },
+    // { image: Crypto, name: "Crypto" },
     { image: DewaUnited, name: "DewaUnited" },
   ];
 
@@ -24,7 +24,7 @@ const DrxTokenParnert = () => {
           <div className="lg:w-[520px] md:w-[520px]  flex items-center justify-center text-center text-white mb-4 ">
             <h1>Our partners are the key to success, discover the extraordinary potential in partnership with us!</h1>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 w-full">
             {partnerImages.map((partner, index) => (
               <div key={index} className="flex flex-col items-center justify-center opacity-70 bg-gradient-to-r from-amber-400 to-yellow-600 w-full h-full rounded-md px-4 py-4 delay-100 hover:brightness-125">
                 <div className="flex items-center justify-center h-20">

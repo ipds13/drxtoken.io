@@ -62,7 +62,7 @@ const DrxTokenRoadMap = () => {
 
             {/* Phase 2 */}
             <div className="xl:absolute left-0 xl:left-[30%] xl:top-[170px]">
-              <ImageWithPopup image={Frame2} popupText="Phase 2" popupList={["DRX Website Development", "Social Media Campaign", "Community Building", "DEX Listing"]} />
+              <ImageWithPopup image={Frame2} popupText="Phase 2" popupList={["DRX Website Development", "Angel Investor", "Social Media Campaign", "Community Building", "Smart Contract Audit", "DEX Listing"]} />
             </div>
 
             {/* Phase 3 */}

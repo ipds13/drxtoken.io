@@ -8,15 +8,15 @@ const Carousel = () => {
   const carouselData = [
     {
       id: 1,
-      title: "New Content 1",
-      text: "This is a new paragraph for content 1.",
-      date: "Sunday, November 12, 2023",
+      title: "Angel Investor",
+      text: "Angel Investor Funding",
+      date: "Jakarta, January 17, 2024",
     },
     {
       id: 2,
-      title: "New Content 2",
-      text: "This is a new paragraph for content 2.",
-      date: "Saturday, November 11, 2023",
+      title: "Launch on Uniswap",
+      text: "Listed on DEX",
+      date: "TBA",
     },
     // Add more data as needed
   ];
