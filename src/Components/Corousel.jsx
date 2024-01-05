@@ -10,7 +10,7 @@ const Carousel = () => {
       id: 1,
       title: "Angel Investor",
       text: "Angel Investor Funding",
-      date: "Jakarta, January 17, 2024",
+      date: "Jakarta, 17/01/2024",
     },
     {
       id: 2,

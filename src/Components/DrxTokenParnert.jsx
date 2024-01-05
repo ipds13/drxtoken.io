@@ -30,9 +30,9 @@ const DrxTokenParnert = () => {
                 <div className="flex items-center justify-center h-20">
                   <img src={partner.image} alt={`Partner ${index + 1}`} className="w-full h-auto object-fill mb-5" />
                 </div>
-                <div className="flex items-center justify-center ">
+                {/* <div className="flex items-center justify-center ">
                   <p className="text-center text-white flex flex-wrap justify-center items-center font-['Avenir']">{partner.name}</p>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
